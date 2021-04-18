@@ -26,7 +26,7 @@ header {
     width: 25px;
     margin-left: 8px;
     display: block; 
-    padding-top: 17.5px;
+    margin-top: 17.5px;
 }
 .main-menu__icon img {
     display: block;
@@ -36,7 +36,10 @@ header {
     display: none;
     position: absolute;
     width: auto;
+    padding: 0 10px 25px;
+    padding-right: 25px;
     font-size: 1.4rem;
+    background-color: white;
 }
 .main-menu__list-primary{
     margin: 15px 0;
@@ -50,6 +53,7 @@ header {
 }
 .main-menu__list-primary li a{
     text-decoration: none;
+    color: #00265a;
 }
 .main-menu:hover {
     cursor: pointer;
@@ -69,6 +73,7 @@ header {
 }
 .main-menu__list-secundary li a{
     text-decoration: none;
+    color: #00265a;
 }
 .main-menu__list-secundary li:hover {
     text-decoration: underline;
